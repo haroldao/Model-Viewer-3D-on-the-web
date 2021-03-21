@@ -5,6 +5,7 @@
 
 body{
   min-height: 100vh;
+  /* background-color: rgb(17, 17, 17); */
 }
 
 .main__element{
@@ -16,4 +17,13 @@ body{
   position: absolute;
   --progress-bar-color: transparent;
   z-index: 99999;
+}
+
+
+#bg__gradient{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
